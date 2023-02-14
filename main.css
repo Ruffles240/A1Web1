@@ -1,0 +1,223 @@
+body{
+    background-color: rgb(8, 8, 8);
+    margin: 0;
+    background-image: url(images/background.jpg) , url(images/background2.jpg), url(images/background3.jpg), url(images/background4.jpg);
+    background-size:contain;
+    background-position-y: 300px, 1000px, 1500px, 2000px;
+    background-repeat:no-repeat;
+ 
+    
+}
+table, th, td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size:1.5rem;
+    position: relative;
+
+    
+}
+table[class*="table"]{
+    left: 37%;
+}
+
+th{
+
+
+}
+
+
+@font-face {
+    font-family: "myFirstFont";
+    src: url("Game of Thrones.ttf") format('truetype');
+  }
+
+article figure{
+    background-color: rgb(151, 138, 92);
+    width: 300px;
+    opacity: 1.0;
+    float: right;
+    left: 30%;
+
+}
+
+
+#menu {
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    list-style-type: none;  
+font-weight: bold;  
+font-size: 20px;  
+justify-content: space-between;
+gap: 50px;
+width: 100%;
+left: 35%;
+
+}
+
+
+#title{
+    position:absolute;
+    font-size: x-large;
+    left: 50%;
+    top:30%;
+    transform: translateX(-50%);
+      
+
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(11, 11, 10);
+  }
+.navbar{
+    position: fixed; 
+    right: 0;
+    top:200px;
+    border-radius: 20px;
+    height: 500px;
+    font-weight: bold;
+    z-index: +2;
+}
+
+
+.navbar ul{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;  
+    padding: 15px;
+    justify-content: space-between;
+    gap:30px;
+    text-align: center;
+    margin-bottom: 0;
+    
+    
+}
+
+article{
+    width: 70%;
+   position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 475px;
+    z-index: 0;
+    background-color: beige;
+    opacity: 0.80;
+    min-height: 750px;
+}
+
+
+.floated{
+text-align: left;
+}
+
+article + p{
+    text-align: left;
+
+}
+
+
+
+#logo {
+
+    height: auto;
+
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    width: 15%;
+    height: auto;
+
+    
+
+    }
+
+#logo img{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left:10%
+
+}
+
+
+
+.navbartitle{
+    text-decoration: underline;
+font-weight: 800;
+}
+
+
+
+.selected{
+    
+    font-size:larger;
+
+    color: rgb(232, 233, 228);
+}
+
+a:hover{
+
+    font-size: larger;
+}
+
+#menu{
+position: relative;
+right: 20px;
+top:20px
+
+}
+#menu li{
+    background-color: rgb(151, 138, 92);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: medium;
+    flex-grow: 1;
+
+}
+.boxes{
+    font-family: "myFirstFont";
+    background-color: rgb(134, 121, 47); 
+
+}
+header{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    list-style-type: none; 
+    margin-top: 0;
+    width: 100%;
+   font-family: "myFirstFont" ;
+   height: 450px;
+top:0px;
+z-index: +2;
+background-image: url("images/Banner.png");
+background-size: cover;
+color: whitesmoke;
+   
+  
+}
+.images{
+
+    height: 275px;
+    width: 200px;
+    opacity: 1.0;
+}
+
+
+footer{
+text-align: center;
+font-size: 10px;
+
+padding-top: 3px;
+height: 50px;
+position: absolute;
+width: 100%;
+
+}
