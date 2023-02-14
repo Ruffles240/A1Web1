@@ -18,7 +18,7 @@ table, th, td{
     
 }
 
-table:nth-child(even){
+tr:nth-child(n+1){
     background-color: darkgoldenrod;
 
 }
