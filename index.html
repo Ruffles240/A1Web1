@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <title>Creation Page</title>
     <meta name ='Author' content ='Raphael Khan'>
     <meta name = "keywords" content="A Song of Ice and Fire, Mythras">
     <meta name ="Description" content = "Taking Mythras RPG into the world of Westerland">
-    <meta name ="title" content = "Creating a character in Westerland.">
-    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
+<!-- The background images do not have alt attributes as you cannot do that for CSS attached images. I hope that is okay.
+They are only for show and flair and I read CSS images were an exception-->
 
 <body>
     
     
     <header id = "top" class="boxes">
         <div id ="title">
-        <h2>Mythras: Ice and Fire</h1>
+        <h2>Mythras: Ice and Fire</h2>
         </div>
         <figure id="logo">
             <img src="images/logo.png" alt = "Our company's brilliant logo" id = "wolf">
@@ -33,7 +35,7 @@
     <aside>
         <nav class="boxes navbar">
             <ul>
-                <li><h3 class = "navbartitle"><a href= "#kingdoms">The Kingdoms</a></h4></li>
+                <li><h3 class = "navbartitle"><a href= "#kingdoms">The Kingdoms</a></h3></li>
                 <li><a href = "#reach">The Reach</a></li>
                 <li><a href = "#north">The North</a></li>
                 <li><a href = "#iron">The Steel Islands</a></li>
@@ -41,20 +43,19 @@
                 <li><a href = "#vale">The Valelands</a></li>
                 <li><a href = "#west">The West</a></li>
                 <li><a href = "#storm">The Storm Peaks</a>"</li>
-                <br>
-                <br>
-                <li><a href = "https://www.youtube.com/watch?v=IdA8DjiQ6us">Character Writing Help</a>"</li>
+                <li><h3 class = "navbartitle">External Resources</h3></li>
+                <li><a href="https://www.youtube.com/watch?v=H1NVnoDMWHs">Character Writing Help</a></li>
             </ul>
         </nav>
     </aside>
-    
+    <main>
     <article>
 
      
        <h1>Character Creation</h1>
         <h3 id ="kingdoms">The Seven Kingdoms</h3>
         <figure>
-            <img src="images/accolade.webp" alt="the accolade art by Edmund Blair White" class="images" name="accolade">
+            <img src="images/accolade.webp" alt="the accolade art by Edmund Blair White" class="images">
             <figcaption>Your journey is beginning, Sir Knight.</figcaption>
         </figure>
         <p class = "floated">Welcome traveller to the Westerland, powered by the Mythras game engine. 
@@ -144,7 +145,7 @@
                     
                 <p>Fields marked with a * are mandatory.</p>
             <label for="from">* Which Kingdom do you hail? </label>
-                    <select name="origin" id ="from" required>
+                    <select name="origin" id ="from">
                         <option value="north">The North</option>
                         <option value="reach">The Reach</option>
                         <option value="iron">The Steel Islands</option>
@@ -156,7 +157,7 @@
 
                      <br>
                     <br>
-                    <label for="Age">* How old are you? </label>
+                    <label for="age">* How old are you? </label>
                         <input type="number" id="age" name="age" value="20" min="18" max="60">
 
                         <h4>What Names do you go by?</h4>
@@ -198,12 +199,15 @@
                     </div>
                     <br>
                     <br>
+                    <label for="backstory">Optional Backstory</label>
+                        <textarea id="backstory" name="backstory" rows="4" cols="50">
+                    </textarea>
                     <h3>Player Information</h3>
 
                     <div>
 
                         <label for="emailad">* Email: </label>
-                            <input type="email" name="emailad" id="emailad" maxlength= "25" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br><br>
+                            <input type="email" name="emailad" id="emailad" value="placeholder@example.com" maxlength= "25" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br><br>
     
                         <label for="phonenum">* Phone Number*: </label>
                             <input type="tel"   name="phonenum" id="phonenum" value="123-456-7890"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>>
@@ -231,10 +235,10 @@
 
     
     </article>
-
+   </main>
     <footer class="boxes">
         <p>Swords of Summer Games, Raphael Khan, 2023</p>
-        <p>All images courtesy of Midjourney AI</p>
+        
     </footer>
 
 

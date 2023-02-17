@@ -1,5 +1,8 @@
 body{
     background-color: rgb(8, 8, 8);
+
+    padding: 10;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     background-image: url(images/background.jpg) , url(images/background2.jpg), url(images/background3.jpg), url(images/background4.jpg);
     background-size:contain;
@@ -14,25 +17,24 @@ table, th, td{
     border-collapse: collapse;
     font-size:1.5rem;
     position: relative;
+    
 
     
 }
-
-tr:nth-child(even){
-    background-color: darkgoldenrod;
-
-}
 table[class*="table"]{
-
-
-    left: 34%;
+    left: 35%;
 }
 
-th{
-
+tr:nth-child(even) {
+    background-color: goldenrod;
 
 }
 
+textarea[name="backstory"]{
+    display: block;
+    left:30%;
+    position:relative;
+}
 
 @font-face {
     font-family: "myFirstFont";
@@ -56,12 +58,12 @@ article figure{
     flex-direction: row;
     align-items: stretch;
     list-style-type: none;  
-font-weight: bold;  
-font-size: 20px;  
-justify-content: space-between;
-gap: 50px;
-width: 100%;
-left: 26%;
+    font-weight: bold;  
+    font-size: 20px;  
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+    left: 20%;
 
 }
 
@@ -133,7 +135,7 @@ article + p{
 
     height: auto;
 
-    font-family: 'Times New Roman', Times, serif;
+    
     position: relative;
     bottom: 50px;
     left: 20px;
