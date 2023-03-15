@@ -58,12 +58,12 @@ article figure{
     flex-direction: row;
     align-items: stretch;
     list-style-type: none;  
-    font-weight: bold;  
-    font-size: 20px;  
-    justify-content: space-between;
-    gap: 50px;
-    width: 100%;
-    left: 20%;
+	font-weight: bold;  
+	font-size: 20px;  
+	justify-content: space-between;
+	gap: 50px;
+	width: 100%;
+	
 
 }
 
@@ -130,21 +130,20 @@ article + p{
 }
 
 
-
 #logo {
 
     height: auto;
 
     
-    position: relative;
-    bottom: 50px;
-    left: 20px;
-    width: 15%;
+  
+   
+    width: 300px;
     height: auto;
 
     
 
     }
+
 
 #logo img{
     width: 50%;
@@ -197,18 +196,19 @@ top:20px
 header{
     position: absolute;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
     list-style-type: none; 
+	justify-content: space-between;
     margin-top: 0;
     width: 100%;
-   font-family: "myFirstFont" ;
-   height: 450px;
-top:0px;
-z-index: +2;
-background-image: url("images/Banner.png");
-background-size: cover;
-color: whitesmoke;
+  	 font-family: "myFirstFont" ;
+  	 height: 450px;
+	top:0px;
+	z-index: +2;
+	background-image: url("images/Banner.png");
+	background-size: cover;
+	color: whitesmoke;
    
   
 }
