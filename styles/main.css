@@ -83,7 +83,7 @@ ul a {
     color: rgb(11, 11, 10);
   }
 .navbar{
-    position: fixed; 
+    position: fixed;
     right: 0;
     top:200px;
     border-radius: 20px;
@@ -235,3 +235,4 @@ figure:hover{
 
 	transform: scale(2.0);
 }
+
