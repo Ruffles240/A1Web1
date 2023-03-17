@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(126, 108, 53);
+    background-color: rgb(75, 116, 70);
     padding: 10;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -45,7 +45,7 @@ table, th, td{
 
 
     display: flex;
-    flex-direction: row;
+    
     align-items: center;
     list-style-type: none;  
 	font-weight: bold;  
@@ -68,7 +68,7 @@ table, th, td{
 
 ul a {
     text-decoration: none;
-    color: rgb(12, 12, 12);
+    color: rgb(0, 0, 0);
   }
 
 main{
@@ -114,7 +114,7 @@ a:hover{
 
 
 #menu li{
-    background-color: rgb(151, 138, 92);
+    background-color: rgb(113, 151, 92);
     padding: 10px;
     border-radius: 10px;
     font-size: medium;
@@ -123,7 +123,7 @@ a:hover{
 }
 .boxes{
     font-family: "myFirstFont";
-    background-color: rgb(143, 143, 21); 
+    background-color: rgb(135, 163, 140); 
 
 }
 header{
@@ -137,7 +137,7 @@ header{
   	 height: auto;
 	top:0px;
 	z-index: +2;
-	color: rgb(14, 13, 13);
+	color: rgb(0, 0, 0);
    
   
 }
@@ -223,22 +223,40 @@ form fieldset{
 
 }
 
+.collapse figure img{
+width: 95%;
+
+
+}
+
+figure{
+
+
+    background-color: rgba(75, 116, 70,0.75) ;
+}
+
 
 textarea{
 
     max-width: 100%;
 }
 
-@media screen and (max-width:590px) {
+@media screen and (max-width:589px) {
 
     #menu{
+        position:absolute;
+
+        top: 0;
+        left: 0;
+
+    }
+
+    #menu ul{
         display: flex;
         flex-direction: column;
 
-       position:absolute;
-
-       top: 0;
-       right: 35%;
+      
+       
     }
 
     #top{
@@ -272,6 +290,12 @@ textarea{
     
 }
 
+
+#Houses figure img{
+    width:100%
+
+
+}
 
 
 
