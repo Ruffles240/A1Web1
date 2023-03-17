@@ -334,10 +334,38 @@ textarea{
 
 
 
+.button{
+
+    min-width: 44px;
+    min-height: 44px;
+
+    align-self: flex-end;
+}
+
+a,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input[type="checkbox"],
+input[type="select"],input[type="date"]::-webkit-calendar-picker-indicator
+ {
+  cursor: pointer;
+}
 
 
+:focus{
 
+	outline: 3px solid blue;
+}
 
+.skip-navigation{
+
+    position: absolute;
+
+    left: -1000px;
+    top: -1000px;
+}
 
 
 
