@@ -235,6 +235,12 @@ figure{
     background-color: rgba(75, 116, 70,0.75) ;
 }
 
+footer{
+
+    padding-bottom: 0.5%;
+    
+}
+
 
 textarea{
 
@@ -284,6 +290,11 @@ textarea{
     #menu li{
         font-size: 10px;
         width: fit-content;
+    }
+
+    footer{
+
+      padding-bottom: 2.8%;
     }
     
    
