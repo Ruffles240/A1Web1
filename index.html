@@ -55,7 +55,7 @@ They are only for show and flair and I read CSS images were an exception-->
     </article>
         <form action="mailto:swordsofsummer@gmail.com" method="get">
             <fieldset>
-                <legend><h2>Character Creation Form</h2></legend>
+                <legend><h2>Contact Us! </h2></legend>
                     <label for="given-name">* First Name: </label>
                         <input type="name" id="given-name" name="given-name" maxlength="20" autocomplete="given-name" required><br><br>
                     <label for="family-name">* Last Name: </label>
@@ -66,33 +66,24 @@ They are only for show and flair and I read CSS images were an exception-->
  
    
 
-        <div>
+       
+                 <label for="emailad">* Email: </label>
+                    <input type="email" name="emailad" id="emailad" value="placeholder@example.com" maxlength= "25" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="email" required><br><br>
 
-            <label for="emailad">* Email: </label>
-                <input type="email" name="emailad" id="emailad" value="placeholder@example.com" maxlength= "25" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="email" required><br><br>
-
-            <label for="phonenum">* Phone Number*: </label>
-                <input type="tel"   name="phonenum" id="phonenum" value="123-456-7890"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autocomplete="tel" required>
-        </div>
-     
+                 <label for="phonenum">* Phone Number*: </label>
+                    <input type="tel"   name="phonenum" id="phonenum" value="123-456-7890"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autocomplete="tel" required>
+       
 
  
-        <br>
-        <br>
-        <label for="backstory">Additional info</label>
-            <textarea id="backstory" name="backstory" rows="4" cols="50">
-        </textarea>
-        <h3>Player Information</h3>
+                <label for="backstory">Additional info</label>
+                     <textarea id="backstory" name="backstory" rows="4" cols="50"> </textarea>
 
+                 <div>
 
+                      <input type="submit" id="submitbtn" value="Send">
 
-
-    <div>
-
-        <input type="submit" id="submitbtn" value="Send">
-
-        <input type="reset" id="clearbtn" value="Clear">
-    </div>
+                     <input type="reset" id="clearbtn" value="Clear">
+                </div>
 
    
 
