@@ -308,6 +308,30 @@ textarea{
 
 }
 
+@media screen and (max-width: 789px) and (min-width: 590px) {
+
+
+    main{
+
+        width: 100%;
+    }
+    .collapse div{
+
+        width: 100%;
+
+        height: 100%;
+
+    }
+
+    .collapse{
+
+        height: 100%;
+        margin-bottom: 30px;
+        gap: 10px;
+    }
+    
+}
+
 
 
 
