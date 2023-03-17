@@ -72,7 +72,8 @@ ul a {
   }
 
 main{
-
+    margin-top: 3%;
+    position: relative;
     display: flex;
 
     flex-direction: column;
@@ -247,6 +248,56 @@ textarea{
     max-width: 100%;
 }
 
+.button{
+
+    min-width: 44px;
+    min-height: 44px;
+
+    align-self: flex-end;
+}
+
+a,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input[type="checkbox"],
+input[type="select"],input[type="date"]::-webkit-calendar-picker-indicator
+ {
+  cursor: pointer;
+}
+
+
+:focus{
+
+	outline: 3px solid blue;
+}
+
+.skip-navigation{
+
+    position: absolute;
+
+    left: -1000px;
+    top: -1000px;
+}
+
+input::placeholder{
+
+    color: gray;
+
+}
+
+footer{
+
+    font-size: 0.75rem;
+
+    padding-bottom: 1%;
+    
+    position: relative;
+    margin-top: 2%;
+}
+
+
 @media screen and (max-width:589px) {
 
     #menu{
@@ -293,8 +344,8 @@ textarea{
     }
 
     footer{
-
-      padding-bottom: 2.8%;
+      padding-bottom: 14%;
+      margin-top: 5%;
     }
     
    
@@ -325,49 +376,16 @@ textarea{
         margin-bottom: 30px;
         gap: 10px;
     }
-    
+
+
+    footer{
+        margin-top: 8%;
+        padding-bottom: 4%;
+    }
 }
 
 
 
-.button{
-
-    min-width: 44px;
-    min-height: 44px;
-
-    align-self: flex-end;
-}
-
-a,
-button,
-input[type="submit"],
-input[type="button"],
-input[type="reset"],
-input[type="checkbox"],
-input[type="select"],input[type="date"]::-webkit-calendar-picker-indicator
- {
-  cursor: pointer;
-}
-
-
-:focus{
-
-	outline: 3px solid blue;
-}
-
-.skip-navigation{
-
-    position: absolute;
-
-    left: -1000px;
-    top: -1000px;
-}
-
-input::placeholder{
-
-    color: gray;
-
-}
 
 
 
