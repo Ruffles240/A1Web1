@@ -367,7 +367,11 @@ input[type="select"],input[type="date"]::-webkit-calendar-picker-indicator
     top: -1000px;
 }
 
+input::placeholder{
 
+    color: gray;
+
+}
 
 
 
