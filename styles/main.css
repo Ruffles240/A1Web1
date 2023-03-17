@@ -203,7 +203,7 @@ text-align: center;
 font-size: 10px;
 
 padding-top: 3px;
-height: 50px;
+height: 30px;
 position: absolute;
 width: 100%;
 
@@ -262,7 +262,7 @@ nav ul{
 
     #menu{
 
-        display:none;
+        display: none;
     }
 
     #top{
